@@ -1,0 +1,27 @@
+{
+	"name" : "hellodev/InventoryManager",
+	"description" : "Add the possiblity of having mutiple warehouses and stock control inside WooCommerce.",
+	"license" : "Closed Source",
+	"keywords" : [
+		"stock",
+		"inventory",
+		"woocommerce"
+	],
+	"authors" : [{
+			"name" : "Hellodev",
+			"email" : "hi@hellodev.us"
+		}
+	],
+	"require" : {
+		"php" : ">=5.4.1"
+	},
+	"autoload" : {
+		"files": [
+			"includes/IM_Install.php", 
+			"includes/IM_Remove.php"
+		],
+		"psr-4" : {
+			"Hellodev\\InventoryManager\\" : "includes/"
+		}
+	}
+}

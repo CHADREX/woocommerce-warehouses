@@ -1,0 +1,6 @@
+id,product_id,warehouse_id,stock,reason,timestamp
+1,2508,1,10,"direct change",
+2,2508,2,10,"direct change",
+3,2508,1,8,"direct change",
+4,2268,1,50,"direct change",
+5,2268,2,10,"direct change",

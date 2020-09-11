@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-inventorymanager\n"
+"POT-Creation-Date: 2015-12-14 11:42-0000\n"
+"PO-Revision-Date: 2015-12-14 11:57-0000\n"
+"Last-Translator: Pedro Freitas <pedro.freitas@hellodev.us>\n"
+"Language-Team: Hellodev <hi@hellodev.us>\n"
+"Language: Portuguese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Users/pedrofreitas/Downloads/woocommerce-"
+"inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/"
+"includes\n"
+"X-Poedit-SearchPath-1: /Users/pedrofreitas/Downloads/woocommerce-"
+"inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/"
+"views\n"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Install.php:39
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Install.php:57
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Install.php:75
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Install.php:92
+msgid ""
+"File open failed. Make sure your backups folder inside WooCommerce "
+"Warehouses has the right permissions (must be readable and writable)."
+msgstr ""
+"Falhou abertura de ficheiro. Certifique que o seu diretório de backups "
+"dentro do WooCommerce Warehouses tem as permissões corretas (tem de ter de "
+"leitura e escrita)."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:144
+msgid "List View"
+msgstr "Ver em lista"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:145
+msgid "Excerpt View"
+msgstr "Visualização em excerto"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:312
+msgid "No items found."
+msgstr "Artigos não encontrados."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:438
+msgid "Select bulk action"
+msgstr "Selecionar ação em massa"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:440
+msgid "Bulk Actions"
+msgstr "Ações em massa"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:450
+msgid "Apply"
+msgstr "Aplicar"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:550
+msgid "Filter by date"
+msgstr "Filtrar por data"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:552
+msgid "All dates"
+msgstr "Todas as datas"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:565
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:612
+#, php-format
+msgid "%s pending"
+msgstr "%s pendente"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:726
+msgid "Select Page"
+msgstr "Selecionar página"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_List_Table.php:881
+msgid "Select All"
+msgstr "Selecionar todos"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:35
+msgid "WooCommerce Warehouses"
+msgstr "Armazéns WooCommerce"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:35
+msgid "Warehouses"
+msgstr "Armazéns"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:42
+msgid "WooCommerce Warehouses - Add Warehouse"
+msgstr "Armazéns WooCommerce - Adicionar Armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:42
+msgid "Add Warehouse"
+msgstr "Adicionar armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:49
+msgid "WooCommerce Warehouses - Stock Log"
+msgstr "Armazéns WooCommerce - Histórico de stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:49
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-log.php:25
+msgid "Stock Log"
+msgstr "Histórico de stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:53
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:57
+msgid "WooCommerce Warehouses - Stock Report"
+msgstr "Armazéns WooCommerce - Análise de stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:53
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:57
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-report.php:15
+msgid "Stock Report"
+msgstr "Análise stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:64
+msgid "WooCommerce Warehouses - Plugin Settings"
+msgstr "Armazéns WooCommerce - Definições do plugin"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:64
+msgid "Plugin Settings"
+msgstr "Definições do plugin"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:71
+msgid "WooCommerce Warehouses - Plugin Documentation"
+msgstr "Armazéns WooCommerce - Documentação do plugin"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Menu.php:71
+msgid "Documentation"
+msgstr "Documentação"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:32
+msgid "Warehouses Settings"
+msgstr "Definições de armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:37
+msgid "Stock Report Export CSV delimiter"
+msgstr "Delimitador CSV da exportação de análise de stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:41
+msgid "WooCommerce Stock Reduction State"
+msgstr "WooCommerce estado de redução do stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:45
+msgid "Custom meta fields in Stock Report"
+msgstr "Meta fields personalizados na análise de stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:49
+msgid "Enable online warehouse restriction"
+msgstr "Activar restrição de armazém online"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:53
+msgid "Online warehouse"
+msgstr "Armazém online"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:57
+msgid "Frontend orders warehouse selection method"
+msgstr "Método de seleção de armazém em encomendas no frontend"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:61
+msgid "Low stock threshold"
+msgstr "Limite stock baixo"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:71
+msgid "Show frontend stock"
+msgstr "Mostrar stock no fronted"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:75
+msgid "Allow selection of warehouses without stock"
+msgstr "Permitir a seleção de armazéns sem stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:102
+msgid "Please input the fields (seperated by ;)."
+msgstr "Por favor coloque os campos (separados por ;)."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:107
+msgid "Please fill in the necessary settings below."
+msgstr "Por favor introduza as definições necessárias em baixo."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:113
+msgid ""
+"This will be used when you export a CSV Stock Report. European format is \";"
+"\" and american is \",\". Default: \";\""
+msgstr ""
+"Isto será usado quando você exporta uma análise de stock em CSV. O formato "
+"europeu é \";\" e o formato americano é \",\". Pré-definido: \";\""
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:121
+msgid "This is combined with the warehouse you select in the below dropdown."
+msgstr "Isto é combinado com o armazém que selecionou na dropdown abaixo."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:131
+msgid "None."
+msgstr "Nenhum."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:149
+msgid "Default."
+msgstr "Pré-definido."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:150
+msgid "Warehouse per country (if available)."
+msgstr "Armazém por país (se disponível)."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:151
+msgid "Manual warehouse selection."
+msgstr "Seleção manual de armazém."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:159
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:166
+msgid "This is exclusive of manual frontend warehouse selection."
+msgstr "Isto é exclusivo do método de seleção manual de armazém."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Plugin_Settings_Controller.php:172
+msgid "Set 0 if you don't want to receive any alerts."
+msgstr "Defina 0 se não quer receber nenhuns alertas."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Log_List_Table.php:45
+msgid "Product"
+msgstr "Produto"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Log_List_Table.php:46
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-per-warehouse.php:60
+msgid "Warehouse name"
+msgstr "Nome do armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Log_List_Table.php:47
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/select-product-dropdown.php:6
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-per-warehouse.php:61
+msgid "Stock"
+msgstr "Stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Log_List_Table.php:48
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Log_List_Table.php:49
+msgid "Description"
+msgstr "Descrição"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Notification.php:20
+msgid "Product in warehouse low in stock"
+msgstr "Produtos em armazém baixos em stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Notification.php:22
+#, php-format
+msgid "%s is low in stock."
+msgstr "%s está baixo em stock."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Notification.php:29
+#, php-format
+msgid "There are %d left in the Warehouse %s."
+msgstr "Existem %d unidades no Armazém %s."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Report_Controller.php:53
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Report_List_Table.php:45
+msgid "Product ID"
+msgstr "ID Produto"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Report_Controller.php:54
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Report_List_Table.php:46
+msgid "Product Name"
+msgstr "Nome do produto"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Report_Controller.php:60
+#, php-format
+msgid "Warehouse %s stock"
+msgstr "Stock %s armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Report_Controller.php:111
+msgid "Stock control disabled"
+msgstr "Controls de stock desactivado"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Report_List_Table.php:47
+msgid "Product Link"
+msgstr "Ligação Produto"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Report_List_Table.php:218
+msgid "Link"
+msgstr "Ligação"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Stock_Report_List_Table.php:232
+msgid "None"
+msgstr "Nenhum"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_Controller.php:24
+msgid "Saved with success."
+msgstr "Gravado com sucesso."
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:47
+msgid "ID"
+msgstr "ID"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:48
+msgid "Date added"
+msgstr "Data criação"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:49
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:38
+msgid "Name"
+msgstr "Nome"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:50
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:45
+msgid "Address"
+msgstr "Morada"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:51
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:57
+msgid "Postcode"
+msgstr "Código postal"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:52
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:50
+msgid "City"
+msgstr "Cidade"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:53
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:64
+msgid "Country"
+msgstr "País"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:54
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:71
+msgid "VAT"
+msgstr "NIF"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:55
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:78
+msgid "Slug"
+msgstr "Slug"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_List_Table.php:56
+msgid "Priority"
+msgstr "Prioridade"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_Order.php:118
+msgid "Warehouse ID"
+msgstr "ID do Armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_Order.php:250
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/select-warehouse-metabox.php:13
+msgid "Warehouse"
+msgstr "Armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_Order.php:262
+msgid "Warehouse destination"
+msgstr "Armazém de destino"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_Order.php:271
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/select-warehouse-metabox.php:17
+msgid "none"
+msgstr "nenhum"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/includes/IM_Warehouse_Order.php:823
+msgid "Select warehouse to all lines"
+msgstr "Selecionar armazém de todos os artigos"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:20
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/list-warehouses.php:68
+msgid "Add warehouse"
+msgstr "Adicionar armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:22
+msgid "Edit warehouse"
+msgstr "Editar armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:85
+msgid "Global stock priority"
+msgstr "Prioridade global de stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:95
+msgid "Countries"
+msgstr "Países"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:104
+msgid "Enter something"
+msgstr "Introduza algo"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:113
+msgid "Add country"
+msgstr "Adicionar país"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/add-warehouse.php:135
+msgid "Save warehouse"
+msgstr "Gravar armazém"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/list-warehouses.php:66
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-per-warehouse.php:57
+msgid "List of warehouses"
+msgstr "Lista de armazéns"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/plugin-settings.php:20
+msgid "Woocommerce Warehouses Settings"
+msgstr "Definições Armazéns WooCommerce"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-per-warehouse.php:57
+msgid "Warehouse Stocks Plugin Options"
+msgstr "Stocks de Armazéns definições do plugin"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-per-warehouse.php:62
+msgid "Stock reduction priority"
+msgstr "Prioridade de redução de stock"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-per-warehouse.php:81
+msgid "Total stock in all warehouses"
+msgstr "Stock total em todos os armazéns"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-per-warehouse.php:84
+msgid "units"
+msgstr "unidades"
+
+#: /Users/pedrofreitas/Downloads/woocommerce-inventorymanager/www/wordpress/wp-content/plugins/woocommerce-warehouses/views/stock-report.php:15
+msgid "Export CSV"
+msgstr "Exportar CV"
+
+#~ msgid "Save Changes"
+#~ msgstr "Gravar modificações"

@@ -1,0 +1,424 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>WooCommerce Warehouses Plugin Documentation</title>
+<!-- Framework CSS -->
+<link rel="stylesheet" href="assets/blueprint-css/screen.css"
+	type="text/css" media="screen, projection">
+<link rel="stylesheet" href="assets/blueprint-css/print.css"
+	type="text/css" media="print">
+<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet"
+	href="assets/blueprint-css/plugins/fancy-type/screen.css"
+	type="text/css" media="screen, projection">
+<style type="text/css" media="screen">
+p, table, hr, .box {
+	margin-bottom: 25px;
+}
+
+.box p {
+	margin-bottom: 10px;
+}
+</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;WooCommerce Warehouses
+			Plugin&rdquo; Documentation by &ldquo;Hellodev&rdquo; v1.3</h3>
+
+		<hr>
+
+		<h1 class="center">WooCommerce Warehouses Plugin</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong> By: Hellodev<br> Email: <a
+						href="mailto:hi@hellodev.us">hi@hellodev.us</a>
+					</strong>
+				</p>
+			</div>
+			<!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">
+					Thank you for purchasing this plugin. If you have any questions
+					that are beyond the scope of this help file, please feel free to
+					<a target="_blank" href="http://codecanyon.net/user/hellodev">email us</a>.
+				</p>
+			</div>
+		</div>
+		<!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol>
+			<li><a href="#features">Features Overview</a></li>
+			<li><a href="#installation">Installation Guide</a></li>
+			<li><a href="#warehouses">Warehouses management</a></li>
+			<li><a href="#stocks">Stock management</a></li>
+			<li><a href="#stocklogs">Stock log</a></li>
+			<li><a href="#stockreports">Stock report</a></li>
+			<li><a href="#lowstockthreshold">Low Stock Threshold</a></li>
+			<li><a href="#warehousenotification">Warehouse Order Notifications</a></li>
+			<li><a href="#backendorders">Backend orders</a></li>
+			<li><a href="#warehousetowarehouse">Warehouse to warehouse
+					stock transfer</a></li>
+			<li><a href="#stockusage">Frontend stock usage priority</a></li>
+			<li><a href="#warehouseselection">Frontend warehouse selection</a></li>
+			<li><a href="#pickuplocation">Pickup Locations</a></li>
+			<li><a href="#importstock">Stock Import/Export</a></li>
+			<li><a href="#integrations">Plugin Integrations</a></li>
+			<li><a href="#settings">Plugin Settings</a></li>
+			<li><a href="#capabilities">Capabilities</a></li>
+			<li><a href="#developers">Developer Notes</a></li>
+			<li><a href="#updating">Updating the plugin</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+
+		<hr>
+
+		<h3 id="features">
+			<strong>1) Features Overview</strong> - <a href="#toc">top</a>
+		</h3>
+
+		<p>This plugin adds the following features to WooCommerce:
+		<ul>
+			<li>Multiple warehouses.</li>
+			<li>Stock management.</li>
+			<li>Stock movement log.</li>
+			<li>Warehouse to warehouse stock transfer.</li>
+			<li>Stock usage priorities by warehouse (global and per item
+				priorities).</li>
+			<li>Backend orders with warehouse stock usage.</li>
+			<li>Handles both products and product variations.</li>
+			<li>Note: no 3rd party service necessary.</li>
+		</ul>
+
+		<hr>
+
+		<h3 id="installation">
+			<strong>2) Installation Guide</strong> - <a href="#toc">top</a>
+		</h3>
+		<h4>
+			<strong>Manual installation</strong>
+		</h4>
+		<p align="justify">
+			The manual installation method involves downloading this plugin and
+			uploading it to your webserver via your favourite FTP application.
+			The WordPress codex contains [<a
+				href="http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation">instructions
+				on how to do this here</a>].
+		</p>
+		<p align="justify">
+			Since version v1.2 this plugin exports the database contents into a folder called "backups". This folder
+			comes with a .htaccess file that blocks any incoming connection. You may check it and see if it
+			fits your needs. If you run a webserver that does not support .htaccess files (like for instance nginx),
+			make sure this folder is blocked in order to protect your database backups from an incoming attacker.
+		</p>
+		<hr>
+
+		<h3 id="warehouses">
+			<strong>3) Warehouses management</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			To add your warehouse you need to select <strong>Warehouses
+				> Add Warehouse</strong>. Fill the form with all the information and press
+			"Save Warehouse" to store it. If you want to use frontend stock
+			reduction priorities please read <a href="#stockusage">this</a> part
+			of the documentation.
+		</p>
+		<p align="justify">
+			The list of all the warehouses is available in <strong>Warehouses
+				> Warehouses</strong>. The list view shows all the info about the warehouses. To <strong>edit</strong> press the Warehouse
+			ID number, it will take you to the edit page.
+		</p>
+		<hr>
+
+		<h3 id="stocks">
+			<strong>4) Stock management</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			This feature is handled inside the product tab. You need to go to <strong>Products
+				> Products > Select a product to edit > Product Data > Inventory >
+				Warehouse Stocks Plugin Options - List of warehouses</strong> to manage the
+			inventory stock of your product.
+		</p>
+		<p align="justify">
+			If it is a variation, you need to go to <strong>Products >
+				Products > Select a product to edit > Product Data > Variations >
+				Select the variation you desire > Warehouse Stocks Plugin Options -
+				List of warehouses</strong>.
+		</p>
+		<p align="justify">The total stock amount between all warehouses
+			is handled by this plugin. You do not need to worry about this.</p>
+		<hr>
+
+		<h3 id="stocklogs">
+			<strong>5) Stock Log</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			This feature is available under the tab <strong>Warehouses >
+				Stock Log</strong>. It saves the following changes:
+		</p>
+		<ul>
+			<li>Direct changes in the product/variations tab.</li>
+			<li>Orders made in the backend and in the frontend.</li>
+		</ul>
+		<hr>
+
+		<h3 id="stockreports">
+			<strong>6) Stock Report</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			This feature is available under the tab <strong>Warehouses >
+				Stock Report</strong>. It allows you to do the following:
+		</p>
+		<ul>
+			<li>Export your whole stocks to a CSV file. Where the stock
+				management is not enabled, the product is included with a warning.</li>
+			<li>Display the list of all products and product variations with
+				stocks.</li>
+		</ul>
+		<hr>
+
+		<h3 id="lowstockthreshold">
+			<strong>7) Low Stock Threshold</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			This feature is available under the tab <strong>Warehouses >
+				Settings</strong>. It allows you to do the following:
+		</p>
+		<ul>
+			<li>This uses the contact defined in <strong>WooCommerce > Settings > Products > Inventory > Notification Recipient(s)</strong>.</li>
+			<li>You can set a threshold that you want to be notified. You will get notifications if the stock is below that level.</li>
+			<li>The notification will include the warehouse name in question so you can refill your items more quickly.</li>
+			<li>There are two different notifications depending if stock is in low or negative quantity.</li>
+		</ul>
+		<hr>
+
+		<h3 id="warehousenotification">
+			<strong>8) Warehouse Order Notifications</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			This feature is available under the tab Email Settings of our plugin settings. It allows you to select which warehouse(s) you want to receive order notifications (via email).
+			 Currently this is only possible when a order takes stock from one warehouse .
+		</p>
+		<hr>
+
+		<h3 id="backendorders">
+			<strong>9) Backend orders</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			This can be done with the normal usage of your WooCommerce
+			installation. Here is an example: you go to <strong>WooCommerce
+				> Products > Add Order</strong>. Adding a product to the current order will
+			show you a Warehouse dropdown list with the warehouse name and the
+			corresponding stock of this product. You select the desired warehouse
+			and fill the order parameters like you do in a regular order. When
+			you press the <strong>Save Order</strong> button, your order will be
+			saved. You do not need to worry about stock decrease, this plugin will
+			handle that for you.
+		</p>
+		<p align="center">
+			<strong>Example of the warehouse dropdown per product line:</strong>
+			<img style="width: 100%" src="assets/images/screen1.png"
+				alt="Example of the warehouse dropdown per product line." />
+		</p>
+		<p align="center">
+			<strong>The <i>"Save Order"</i> button is placed under <i>"Order
+					Actions"</i>:
+			</strong> <img style="width: 100%" src="assets/images/screen2.png"
+				alt="Save order button location." />
+		</p>
+		<hr>
+
+		<h3 id="warehousetowarehouse">
+			<strong>10) Warehouse to warehouse stock transfer</strong> - <a
+				href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			Warehouse to warehouse stock transfer is also important in some
+			business models. This plugin handles this transfers using
+			WooCommerce Order System. To transfer stocks from a warehouse to another
+			warehouse you just need to place an Order. You can do this by going to
+			<strong>WooCommerce > Products > Add Order</strong>. After that you
+			will be prompt with the order form, add the products you want to
+			move and select the origin warehouse by filling the Warehouse field for
+			each product line.
+		</p>
+		<p align="center">
+			<strong>This is where the destination warehouse is selected:</strong>
+			<img style="width: 100%" src="assets/images/screen3.png"
+				alt="Destination warehouse dropdown location." />
+		</p>
+		<p align="justify">
+			The destination warehouse can be selected with the dropdown in the
+			image above. After completing the process all that needs to be done is to select the order status <strong><i>
+			"Stock Transferred"</i></strong> and save.
+			When you press <strong><i>"Save Order"</i></strong> your
+			order will be saved, again you do not need to worry about stock
+			increase or decrease for each warehouse, this plugin handles that for
+			you.
+		</p>
+		<p align="justify">Please note that this plugin also grabs the
+			warehouse address and puts it in the order shipping address. When you
+			select a destination warehouse the shipping and billing addresses are
+			locked to avoid issues.</p>
+		<hr>
+
+		<h3 id="stockusage">
+			<strong>11) Frontend stock usage priority</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">Priorities can be defined globally when you add
+			a warehouse. You can define a global priority number, or a priority number per item. There is a field next to the stock amount for you to set
+			the particular priority that will override the globally set
+			priorities. Frontend stock usage priority will respect this rules
+			automatically.</p>
+		<hr>
+
+		<h3 id="warehouseselection">
+			<strong>12) Frontend warehouse selection</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">This allows you to opt how you want your clients orders to be sorted. Here is a brief explaniation of what this option bring tfoot
+			your business logic:</p>
+			<ul>
+				<li><strong>Defaut</strong> - This will use the default method of stock reduct. If it is not set per product it will use the global warehouses
+					stock reduction priorities.</li>
+				<li><strong>Warehouse per country (if available)</strong> - Allows you to assign a country to a warehouse and during checkout
+					any orders with a shipping address in that country will be assigned to that specific warehouse.</li>
+				<li><strong>Manual Warehouse Selection</strong> - Allows customers to select on product page which warehouse to take stock from.</li>
+			</ul>
+		<hr>
+
+		<h3 id="pickuplocation">
+			<strong>13) Pickup Locations</strong> - <a href="#toc">top</a>
+		</h3>
+			<p align="justify">This feature allows users to choose a warehouse where to pickup is order instead of having it shipped to them.
+			In order to use this feature:
+			<ul>
+				<li> It needs to be enabled on WooCommerce Warehouses Settings.</li>
+				<li> WooCommerce local_pickup shipping method must be enabled, since this plugin uses it as this feature shipping method.</li>
+				<li> Each warehouse you intend to allow to be used as pickup location must have that option checked.</li>
+			</ul>
+   </p>
+
+		</h3>
+
+		<h3 id="importstock">
+			<strong>13) Import/Export Stock</strong> - <a href="#toc">top</a>
+		</h3>
+			<p align="justify">Stock Import and Export is possible through Warehouses > Stock Import:
+			<ul>
+				<li>To export stock: Click the Export Stock button at the top of the page.</li>
+				<li>To import stock: Upload a CSV file with the stock data (take into account the expected fields) and after uploading click the Start Update Button at the right side of the page.</li>
+			</ul>
+   </p>
+
+		<h3 id="integrations">
+			<strong>14) Plugin Integrations</strong> - <a href="#toc">top</a>
+		</h3>
+			<p align="justify">This plugin is integrated with WooCommerce Point of Sale (POS) by Actuality Extentions. In order to setup this integration you need to:
+			<ul>
+				<li>In each warehouse define which outlet(s) use stock from that warehouse through Warehouses->Warehouses->Add Warehouse/Edit Warehouse->Outlets.</li>
+			</ul>
+   </p>
+
+		</h3>
+
+		<h3 id="settings">
+			<strong>15) Plugin Settings</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			In some business models it is important that you are able to select when
+			you want to see your stock being decreased. This plugin allows you to
+			control this with the WooCommerce order status. To select when you
+			want to see your stock reduced go to <strong>Warehouses >
+				Plugin Settings > Woocommerce Stock Reduction State</strong> then press <strong><i>Save
+					Settings</i></strong> to store your settings.
+		</p>
+		<p align="justify">
+			<strong>List of order status supported:</strong>
+		</p>
+		<ul>
+			<li>Pending Payment (default)</li>
+			<li>Processing</li>
+			<li>On-Hold</li>
+			<li>Completed</li>
+		</ul>
+		<hr>
+
+		<h3 id="capabilities">
+			<strong>16) Capabilities</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			The access to the features is controlled by the user capabilities.
+			This plugin is available to every user that owns <strong>manage_options</strong>
+			capabilities. However there are another two set of capabilities if you want
+			to control it in gerater detail. Use <strong>hellodev_im_stock_log</strong>
+			to control who can access the stock log and report. Use <strong>hellodev_im_manage_warehouses</strong>
+			to allow users to modify your warehouses. Use <strong>hellodev_im_plugin_settings</strong>
+			if you want to allow users to modify the plugin settings. To allow a user to manage product stock use <strong>hellodev_im_product_stock</strong> capability.
+		</p>
+		<hr>
+
+		<h3 id="developers">
+			<strong>17) Developer Notes</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			This plugin allows you to a warehouse stock of a specific product via post meta values. You can use the
+			following syntax:
+			<ul>
+				<li><strong>_warehouse_(WAREHOUSE ID HERE)</strong></li>
+				<li>Example: Getting the stock of warehouse ID 1: get_post_meta($post_id, "_warehouse_1", true);</li>
+			</ul>
+		</p>
+
+		<h3 id="updating">
+			<strong>18) Updating the plugin</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			Since version v1.2 this plugin exports the database contents into a folder called "backups". This folder
+			comes with a .htaccess file that blocks any incoming connection. You may check it and see if it
+			fits your needs. If you run a webserver that does not support .htaccess files (like for instance nginx),
+			make sure this folder is blocked in order to protect your database backups from an incoming attacker.
+		</p>
+		<p align="justify">
+			Database exports are done when a new update to the database version is done. If anything goes wrong you still
+			have your data in CSV files however we do <b>recommend you backup your database everytime you update this plugin</b>, just
+			to make sure you don't lose any data.
+			This files are overwritten every update and they can be deleted <b>manually</b> after a update.
+		</p>
+		<hr>
+
+		<h3 id="credits">
+			<strong>19) Sources and Credits</strong> - <a href="#toc">top</a>
+		</h3>
+		<p align="justify">
+			This plugin has been developed by Hellodev. You can check our website
+			at <a href="https://www.hellodev.us/">here</a>.
+		</p>
+		<p align="justify">
+			This plugin works with WooCommerce
+			eCommerce solution, a product of <a
+				href="http://www.woothemes.com/woocommerce/">WooThemes</a>.
+		</p>
+		<hr>
+		<p class="append-bottom alt large">
+			<strong>Hellodev</strong><br /> Rua Humberto Cruz 410<br />
+			4450-694 Leça da Palmeira<br /> PORTUGAL
+		</p>
+		<p>
+			<a href="#toc">Go To Table of Contents</a>
+		</p>
+
+		<hr class="space">
+	</div>
+	<!-- end div .container -->
+</body>
+</html>
